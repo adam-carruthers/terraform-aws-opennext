@@ -16,6 +16,7 @@ variable "comment" {
 
 variable "acm_certificate_arn" {
   type = string
+  nullable = true
 }
 
 variable "origins" {
