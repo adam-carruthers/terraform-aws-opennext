@@ -1,5 +1,5 @@
 locals {
-  opennext_abs_path = "${abspath(path.root)}/${var.opennext_build_path}"
+  opennext_abs_path = var.opennext_build_path
 }
 
 locals {
